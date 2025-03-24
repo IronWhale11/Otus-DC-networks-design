@@ -1,2 +1,2 @@
 # Otus-DC-networks-design
-Home work for OTUS DC networks design course
+Домашние работы по курсу OTUS "Дизайн сетей ЦОД"
