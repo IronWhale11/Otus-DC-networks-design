@@ -25,11 +25,11 @@
 |       |Loopback1|10.0.6.0/32||
 |       |Ethernet1||Client-1 switchport|
 |       |Ethernet7|10.0.128.1/31|P-t-p to Spine-1|
-|       |Ethernet8|10.0.132.2/31|P-t-p to Spine-2|
+|       |Ethernet8|10.0.132.1/31|P-t-p to Spine-2|
 |Leaf-2 |Loopback0|10.0.4.1/32|Underlay loopback|
 |       |Loopback1|10.0.6.1/32||
 |       |Ethernet1||Client-2 switchport|
-|       |Ethernet7|10.0.128.1/31|P-t-p to Spine-1|
+|       |Ethernet7|10.0.128.3/31|P-t-p to Spine-1|
 |       |Ethernet8|10.0.132.3/31|P-t-p to Spine-2|
 |Leaf-3 |Loopback0|10.0.4.2/32|Underlay loopback|
 |       |Loopback1|10.0.6.2/32||
@@ -37,8 +37,6 @@
 |       |Ethernet2||Client-4 switchport|
 |       |Ethernet7|10.0.128.5/31|P-t-p to Spine-1|
 |       |Ethernet8|10.0.132.5/31|P-t-p to Spine-2|
-
-
 
 ### Распределение адресного пространство
 
