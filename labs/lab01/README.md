@@ -13,14 +13,31 @@
 |-|-|-|-|
 |Spine-1|Loopback0|10.0.0.0/32|Underlay loopback|
 |       |Loopback1|10.0.1.0/32||
-|       |Ethernet1|10.0.128.0/31|P-t-p to Leaf1|
-|       |Ethernet2|10.0.128.2/31|P-t-p to Leaf2|
-|       |Ethernet3|10.0.128.4/31|P-t-p to Leaf3|
+|       |Ethernet1|10.0.128.0/31|P-t-p to Leaf-1|
+|       |Ethernet2|10.0.128.2/31|P-t-p to Leaf-2|
+|       |Ethernet3|10.0.128.4/31|P-t-p to Leaf-3|
 |Spine-2|Loopback0|10.0.0.1/32|Underlay loopback|
 |       |Loopback1|10.0.1.1/32||
-|       |Ethernet1|10.0.132.0/31|P-t-p to Leaf1|
-|       |Ethernet2|10.0.132.2/31|P-t-p to Leaf2|
-|       |Ethernet3|10.0.132.4/31|P-t-p to Leaf3|
+|       |Ethernet1|10.0.132.0/31|P-t-p to Leaf-1|
+|       |Ethernet2|10.0.132.2/31|P-t-p to Leaf-2|
+|       |Ethernet3|10.0.132.4/31|P-t-p to Leaf-3|
+|Leaf-1 |Loopback0|10.0.4.0/32|Underlay loopback|
+|       |Loopback1|10.0.6.0/32||
+|       |Ethernet1||Client-1 switchport|
+|       |Ethernet7|10.0.128.1/31|P-t-p to Spine-1|
+|       |Ethernet8|10.0.132.2/31|P-t-p to Spine-2|
+|Leaf-2 |Loopback0|10.0.4.1/32|Underlay loopback|
+|       |Loopback1|10.0.6.1/32||
+|       |Ethernet1||Client-2 switchport|
+|       |Ethernet7|10.0.128.1/31|P-t-p to Spine-1|
+|       |Ethernet8|10.0.132.3/31|P-t-p to Spine-2|
+|Leaf-3 |Loopback0|10.0.4.2/32|Underlay loopback|
+|       |Loopback1|10.0.6.2/32||
+|       |Ethernet1||Client-3 switchport|
+|       |Ethernet2||Client-4 switchport|
+|       |Ethernet7|10.0.128.5/31|P-t-p to Spine-1|
+|       |Ethernet8|10.0.132.5/31|P-t-p to Spine-2|
+
 
 
 ### Распределение адресного пространство
