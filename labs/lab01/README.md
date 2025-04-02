@@ -9,18 +9,18 @@
 ### Схема сети
 ![Network scheme](Clos.png)
 
-|Device|Interface|IP|
-|-|-|-|
-|Spine-1|Loopback0|10.0.0.0/32|
-|       |Loopback1|10.0.1.0/32|
-|       |Ethernet1|10.0.128.0/31|
-|       |Ethernet2|10.0.128.2/31|
-|       |Ethernet3|10.0.128.4/31|
-|Spine-2|Loopback0|10.0.0.1/32|
-|       |Loopback1|10.0.1.1/32|
-|       |Ethernet1|10.0.128.0/31|
-|       |Ethernet2|10.0.128.2/31|
-|       |Ethernet3|10.0.128.4/31|
+|Device|Interface|IP|Description|
+|-|-|-|-|
+|Spine-1|Loopback0|10.0.0.0/32||
+|       |Loopback1|10.0.1.0/32||
+|       |Ethernet1|10.0.128.0/31||
+|       |Ethernet2|10.0.128.2/31||
+|       |Ethernet3|10.0.128.4/31||
+|Spine-2|Loopback0|10.0.0.1/32||
+|       |Loopback1|10.0.1.1/32||
+|       |Ethernet1|10.0.128.0/31||
+|       |Ethernet2|10.0.128.2/31||
+|       |Ethernet3|10.0.128.4/31||
 
 
 ### Распределение адресного пространство
